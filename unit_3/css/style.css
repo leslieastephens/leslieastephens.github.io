@@ -1,0 +1,9 @@
+body {
+
+
+
+.hero {
+	text-align: left;
+	font-family: sans-serif;
+	background-image: url("images/couple.jpg")
+}
