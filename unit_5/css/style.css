@@ -24,8 +24,19 @@ body {
 	text-shadow: 2px, 2px, 3px, black;
 }
 
+#intro div {
+	position: absolute;
+	padding-left: 5%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+#intro p {
+	
+}
+
 h1 {
-	letter-spacing: 1em;
+	letter-spacing: .25em;
 }
 
 }
