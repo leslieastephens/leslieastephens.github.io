@@ -9,6 +9,33 @@ body {
 	font-family: Lato, sans-serif;
 }
 
+h1 {
+	letter-spacing: .15em;
+}
+
+}
+h3, h4 {
+	font-family: "Volkhov", serif;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+}
+
+nav {
+	background-color: grey;
+}
+
+nav a {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 #intro {
 	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/header.jpg);
 	background-size: cover;
@@ -56,15 +83,21 @@ body {
 	text-decoration: none;
 }
 
-h1 {
-	letter-spacing: .15em;
+#story {
+	background-color: lightgrey;
 }
 
-}
-h3, h4 {
-	font-family: "Volkhov", serif;
+#party{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
 }
 
-p {
-	font-family: "Montserrat", sans-serif;
+#party section {
+	display: block;
+	width: 50%;
+}
+
+#registry {
+	background-color: lightgrey;
 }
