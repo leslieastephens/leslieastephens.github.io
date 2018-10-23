@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: honeydew;
+	background-color: white;
 	text-align: center;
 	font-family: Lato, sans-serif;
 }
@@ -17,7 +17,6 @@ body {
 	background-attachment: fixed;
 	height: 100vh;
 	display: block;
-	text-align: left;
 	font-family: "Oswald", sans-serif;
 	font-size: 6em;
 	color: white;
@@ -27,6 +26,7 @@ body {
 #intro h2 {
 	font-size: 40px;
 	font-family: Montserrat, sans-serif;
+	text-align: left;
 }
 
 #intro div {
@@ -34,20 +34,30 @@ body {
 	padding-left: 5%;
 	top: 50%;
 	transform: translate(0, -50%);
+	text-align: left;
 }
 
 #intro a {
+	background-color: white;
 	font-size: 40px;
 	padding: 5px;
 	border: 2px white solid;
 }
 
-#wedding a {
-	display: block;
+.button {
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	letter-spacing: .25em;
+	text-decoration: none;
 }
 
 h1 {
-	letter-spacing: .25em;
+	letter-spacing: .15em;
 }
 
 }
