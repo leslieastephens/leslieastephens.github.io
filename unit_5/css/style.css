@@ -13,9 +13,11 @@ h1 {
 	letter-spacing: .15em;
 }
 
-}
-h3, h4 {
-	font-family: "Volkhov", serif;
+h2, h3 {
+	font-family: "Oswald", sans-serif;
+	letter-spacing: .10em;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 p {
@@ -24,6 +26,7 @@ p {
 
 nav {
 	background-color: grey;
+	padding: .5em;
 }
 
 nav a {
@@ -85,16 +88,45 @@ nav a {
 
 #story {
 	background-color: lightgrey;
+	display: block;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
-#party{
+#story h2 {
+	text-align: left;
+}
+
+#story h3 {
+	font-size: 20px;
+	text-align: left;
+}
+
+#story p {
+	display: block;
+	text-align: left;
+	padding-right: 2em;
+}
+
+#story img {
+	padding: 2em;
+	background-color: lightgrey;
+	float: left;
+	display: block;
+}
+
+#party {
+	display: block;
+	clear: left;
+}
+
+#people{
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 100%;
 }
 
-#party section {
-	display: block;
+#people div {
 	width: 50%;
 }
 
