@@ -11,9 +11,17 @@ h1 {
 	letter-spacing: .15em;
 }
 
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
 h2, h3 {
 	font-family: "Oswald", sans-serif;
-	letter-spacing: .10em;
+	letter-spacing: .15em;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -23,8 +31,11 @@ p {
 }
 
 nav {
-	background-color: grey;
+	background-color: #510337;
 	padding: .5em;
+	z-index: 5;
+	position: fixed;
+	width: 100%;
 }
 
 nav a {
@@ -38,7 +49,7 @@ nav a {
 }
 
 #intro {
-	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/header.jpg);
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/hands.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -65,7 +76,7 @@ nav a {
 #intro div {
 	position: absolute;
 	padding-left: 5%;
-	top: 50%;
+	top: 70%;
 	transform: translate(0, -50%);
 	text-align: left;
 }
@@ -75,6 +86,8 @@ nav a {
 	font-size: 40px;
 	padding: 5px;
 	border: 2px white solid;
+	color: #510337;
+	text-align: center;
 }
 
 .button {
@@ -91,46 +104,93 @@ nav a {
 
 #wedding {
 	background-color: white;
+	color: #510337;
+	padding: 2em;
+}
+
+#wedding div {
+	display: block;
+	padding-top: 7em;
+	padding-left: 4em;
+	width: 40%
+}
+
+#wedding h3 {
+	padding-bottom: 1em;
+}
+
+#wedding a {
+	font-family: "Montserrat", sans-serif;
+	padding-bottom: 1em;
+	display: block;
+}
+
+#wedding p {
+	padding-bottom: 1em;
+}
+
+#wedding iframe {
+	float: right;
+	padding-top: 2em;
+
 }
 
 #story {
-	background-color: lightgrey;
+	background-color: #510337;
 	display: block;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
 }
 
 #story h2 {
 	text-align: left;
+	padding-right: 2em;
 }
 
 #story h3 {
-	font-size: 20px;
+	font-size: 15px;
 	text-align: left;
 }
 
 #story p {
 	display: block;
 	text-align: left;
+	padding-top: .5em;
+	padding-left: 2em;
 	padding-right: 2em;
+
 }
 
 #story img {
 	padding: 2em;
-	background-color: lightgrey;
 	float: left;
 	display: block;
+	width: 33.33%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #party {
 	display: block;
 	clear: left;
+	color: #510337;
 }
 
 #people{
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 100%;
+	padding: 2em;
 }
 
 #people div {
@@ -138,5 +198,50 @@ nav a {
 }
 
 #registry {
-	background-color: lightgrey;
+	background-color: #510337;
+	color: white;
+	padding: 2em;
+}
+
+#registry img {
+	background-color: white;
+	width: 200px;
+}
+
+#rsvp {
+	padding: 2em;
+	color: #510337;
+}
+
+#rsvp form {
+	font-family: "Montserrat", sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; /
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #510337;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgray;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
 }
