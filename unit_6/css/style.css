@@ -19,7 +19,7 @@ h3 {
 	font-size: 20px;
 }
 
-h2, h3 {
+h2, h3, h4 {
 	font-family: "Oswald", sans-serif;
 	letter-spacing: .15em;
 	text-transform: uppercase;
@@ -46,6 +46,10 @@ nav a {
 	font-size: 20px;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+#wrapper {
+    margin: auto;
 }
 
 #intro {
@@ -106,13 +110,15 @@ nav a {
 	background-color: white;
 	color: #510337;
 	padding: 2em;
+	margin: auto;
 }
 
 #wedding div {
-	display: block;
 	padding-top: 7em;
 	padding-left: 4em;
-	width: 40%
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: 2em;
 }
 
 #wedding h3 {
@@ -130,8 +136,9 @@ nav a {
 }
 
 #wedding iframe {
-	float: right;
 	padding-top: 2em;
+	float: right;
+	display: block;
 
 }
 
@@ -143,6 +150,7 @@ nav a {
 	width: 100%;
 	box-sizing: border-box;
 	color: white;
+	margin: auto;
 }
 
 #story h2 {
@@ -194,7 +202,11 @@ nav a {
 }
 
 #people div {
-	width: 50%;
+	box-sizing: border-box;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2em;
+	margin: auto;
 }
 
 #registry {
@@ -206,6 +218,7 @@ nav a {
 #registry img {
 	background-color: white;
 	width: 200px;
+	margin-top: 2em;
 }
 
 #rsvp {
