@@ -140,6 +140,7 @@ nav a {
 #story h2 {
 	text-align: left;
 	padding-right: 2em;
+	padding-left: 2em;
 }
 
 #story h3 {
@@ -197,6 +198,7 @@ nav a {
 	background-color: #510337;
 	color: white;
 	padding: 6em 2em;
+	margin: auto;
 }
 
 #registry h2 {
@@ -268,7 +270,7 @@ input[type=submit]:hover {
 		padding: auto;
 		text-align: center;
 	}
-}
+
 	#wedding div{
 		float: none;
 		text-align: center;
@@ -285,7 +287,34 @@ input[type=submit]:hover {
 	}
 }
 
-/*NOTE: I added the below media querie that adds the class "mobile" to your html. You may need to adjust some of the spacing issues.*/
+@media screen and (max-width: 900px) {
+	#story {
+		display: block;
+		margin: auto;
+	}
+
+	#story img {
+		float: none;
+		width: 80%;
+		padding: 2em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#story h2 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#story h3 {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: auto;
+	}
+
+}
+
+
 @media screen and (max-width: 600px) {
 	#mobile {
 		display: block;
@@ -326,4 +355,20 @@ input[type=submit]:hover {
 	text-align: center;
 	}
 
+	#registry img {
+		width: 50%;
+	}
+
+	#people {
+		display: block;
+	}
+
+	#people div {
+		width: 30%;
+		margin: auto;
+		display: block;
+		flex-wrap: none;
+	}
+
 }
+
